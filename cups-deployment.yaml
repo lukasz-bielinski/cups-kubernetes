@@ -24,6 +24,7 @@ spec:
       labels:
         app: cups
     spec:
+      serviceAccountName: cups-sa
       containers:
       - image: lukaszbielinski/cups
         imagePullPolicy: Always
