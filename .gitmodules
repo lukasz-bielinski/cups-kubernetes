@@ -1,0 +1,3 @@
+[submodule "docker-cups"]
+	path = docker-cups
+	url = git@gitlab.com:ydkn/docker-cups.git
